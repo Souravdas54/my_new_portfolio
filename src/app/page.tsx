@@ -115,8 +115,8 @@ const Home: React.FC = () => {
 const handleDownloadResume = () => {
     // Create a PDF link or use actual resume file
     const link = document.createElement('a');
-    link.href = '/files/Sourav_Das_Resume.pdf'; // Make sure you have a resume.pdf file in your public folder
-    link.download = 'Sourav_Das_Resume.pdf';
+    link.href = '/files/SOURAV_DAS_CV.pdf'; // Make sure you have a resume.pdf file in your public folder
+    link.download = 'SOURAV_DAS_CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

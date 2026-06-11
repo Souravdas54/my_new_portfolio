@@ -125,24 +125,25 @@ const About = () => {
       grade: 'CGPA: 76.7',
       // description: '',
       icon: <FaGraduationCap />
-    },
-    {
-      degree: 'Higher Secondary (12th)',
-      institute: 'West Bengal Council of Higher Secondary Education',
-      year: '2021',
-      grade: 'Percentage: 57.4%',
+    }]
+
+    // {
+      // degree: 'Higher Secondary (12th)',
+      // institute: 'West Bengal Council of Higher Secondary Education',
+      // year: '2021',
+      // grade: 'Percentage: 57.4%',
       // description: '',
-      icon: <FaGraduationCap />
-    },
-    {
-      degree: 'Secondary (10th)',
-      institute: 'West Bengal Board of Secondary Education',
-      year: '2019',
-      grade: 'Percentage: 44.3%',
+      // icon: <FaGraduationCap />
+    // },
+    // {
+      // degree: 'Secondary (10th)',
+      // institute: 'West Bengal Board of Secondary Education',
+      // year: '2019',
+      // grade: 'Percentage: 44.3%',
       // description: '',
-      icon: <FaGraduationCap />
-    },
-  ];
+      // icon: <FaGraduationCap />
+    // },
+  // ];
 
   // Stats for fresher
   const stats = [
@@ -227,7 +228,7 @@ const About = () => {
           <div className="absolute -bottom-8 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-3 xs:px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 relative z-10">
+        <div className="max-w-7xl mx-auto px-3 xs:px- sm:px- md:px- lg:px- xl:px- relative z-10">
 
           {/* Header Section */}
           {
@@ -242,9 +243,7 @@ const About = () => {
                 </div>
               </div>
             ) : (
-
-
-              <div className="text-center mb-8 xs:mb-10 sm:mb-12 md:mb-16 lg:mb-20 animate-fade-in-down">
+              <div className="text-center ">
                 <div className="inline-block relative">
                   <h1 className="text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-gray-900 mb-4 animate-gradient-x">
                     About Me
