@@ -63,13 +63,13 @@ export default function CVPage() {
                                 <p className="text-indigo-100 text-lg mt-1">{cvData.title}</p>
                             </div>
                             {/* Uncomment if you have an imageUrl field in your schema */}
-                            {/* {cvData.imageUrl && (
-                <img
-                  src={cvData.imageUrl}
-                  alt={cvData.name}
-                  className="w-24 h-24 rounded-full border-4 border-white shadow-lg object-cover"
-                />
-              )} */}
+                            {cvData.imageUrl && (
+                                <img
+                                    src={cvData.imageUrl}
+                                    alt={cvData.name}
+                                    className="w-24 h-auto rounded border-1 border-white shadow-lg object-cover"
+                                />
+                            )}
                         </div>
                     </div>
 

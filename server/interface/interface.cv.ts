@@ -6,7 +6,7 @@ export interface CVInterface {
     phone: string;
     location: string;
     about: string;
-    // imageUrl:string;
+    imageUrl:string;
     skills: string[];
     education: educationInterface[];
     projects: projectsInterface[];

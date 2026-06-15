@@ -1,11 +1,11 @@
-import { Request, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 import CVModel from "../models/cv.model";
 import { Types } from "mongoose";
 import { CVInterface } from "../interface/interface.cv";
 
 class Cvcontroller {
 
-    async createCV(req: Request, res: Response) {
+    async createCV(req: Request, res: Response, next: NextFunction) {
         try {
             console.log(req.body);
 
@@ -129,7 +129,7 @@ class Cvcontroller {
 
     async updateCV(req: Request, res: Response) {
         try {
-const {id} = req.params;
+            const { id } = req.params;
         } catch (error) {
 
         }

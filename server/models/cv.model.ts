@@ -29,7 +29,7 @@ const CVSchema = new Schema<CVInterface>({
     phone: { type: String, required: true },
     location: { type: String, required: true },
     about: { type: String, required: true },
-    // imageUrl: { type: String, default: null },
+    imageUrl: { type: String, default: null },
     skills: { type: [String], required: true },
     education: { type: [educationSchema], default: [] },
     projects: { type: [projectsSchema], default: [] },

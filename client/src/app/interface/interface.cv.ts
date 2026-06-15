@@ -26,7 +26,7 @@ export interface CVInterface {
   phone: string;
   location: string;
   about: string;
-  // imageUrl?: string | null;
+  imageUrl?: string | null;
   skills: string[];
   education: EducationInterface[];
   projects: ProjectsInterface[];

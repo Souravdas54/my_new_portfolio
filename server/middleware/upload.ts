@@ -4,7 +4,7 @@ import cloudinary from '../config/cloudinary.config';
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
-export const uploadToCloudinary = (fileBuffer: "Buffer", folderName: string): Promise<string> => {
+export const uploadToCloudinary = (fileBuffer: Buffer, folderName: string): Promise<string> => {
     return new Promise((resolve, reject) => {
         cloudinary.uploader.upload_stream(
             {
