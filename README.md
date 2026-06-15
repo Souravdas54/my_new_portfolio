@@ -3,8 +3,8 @@
 A full-stack portfolio application built with modern web technologies. This project showcases my skills, projects, resume, and professional journey as a MERN Stack Developer.
 
 🌐 Live Demo
+https://my-new-portfolio-nu-bice.vercel.app/
 
-Portfolio Website (vercle)
 ---
 
 ## 📌 About The Project
