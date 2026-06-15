@@ -102,7 +102,7 @@ const About = () => {
     { icon: <SiNodedotjs />, name: 'Node.js', level: '50%', color: 'from-green-500 to-green-600', category: 'Backend' },
     { icon: <SiExpress />, name: 'Express.js', level: '50%', color: 'from-gray-600 to-gray-700', category: 'Backend' },
     { icon: <SiMongodb />, name: 'MongoDB', level: '40%', color: 'from-green-600 to-green-700', category: 'Database' },
-    // { icon: <SiMysql />, name: 'MySQL', level: '75%', color: 'from-blue-700 to-blue-800', category: 'Database' },
+    { icon: <SiMysql />, name: 'MySQL', level: '75%', color: 'from-blue-700 to-blue-800', category: 'Database' },
     // { icon: <SiFirebase />, name: 'Firebase', level: '70%', color: 'from-yellow-600 to-yellow-700', category: 'Backend' },
     // { icon: <SiGit />, name: 'Git', level: '85%', color: 'from-orange-600 to-orange-700', category: 'Tools' },
   ];

@@ -6,7 +6,7 @@ import Head from "next/head";
 import Script from "next/script";
 import { WebPage, WithContext } from "schema-dts";
 import { FaLinkedin, FaGithub, FaTwitter, FaCode, FaReact, FaJs, FaCss3Alt, FaNodeJs, FaDownload, FaHtml5, FaBootstrap } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiTypescript, SiMongodb, SiExpress } from "react-icons/si";
+import { SiNextdotjs, SiTailwindcss, SiTypescript, SiMongodb, SiExpress, SiMysql } from "react-icons/si";
 
 const jsonLdHome: WithContext<WebPage> = {
   "@context": "https://schema.org",
@@ -49,6 +49,8 @@ const techStack = [
   { icon: FaNodeJs, name: "Node.js", color: "text-green-600" },
   { icon: SiExpress, name: "Express.js", color: "text-gray-400" },
   { icon: SiMongodb, name: "MongoDB", color: "text-green-500" },
+  { icon: SiMysql, name: 'MySQL', color: 'from-blue-700 to-blue-800'},
+  
 ];
 
 // Move SkeletonLoader outside the component to fix the render error
