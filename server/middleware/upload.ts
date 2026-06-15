@@ -1,13 +1,30 @@
 import multer from 'multer';
-import { CloudinaryStorage } from 'multer-storage-cloudinary';
 import cloudinary from '../config/cloudinary.config';
 
-export const CreateUploadFolder = (folderName:string)=>{
-    const storage = new CloudinaryStorage({
-        cloudinary,
-        params:async ()=>({
-            folder:folderName,
-            allowed_format:['jpg','jpeg','png','webp',]
-        })
-    })
+const storage = multer.memoryStorage();
+const upload = multer({ storage });
+
+export const uploadToCloudinary = (fileBuffer: "Buffer", folderName: string): Promise<string> => {
+    return new Promise((resolve, reject) => {
+        cloudinary.uploader.upload_stream(
+            {
+                folder: folderName,
+                allowed_formats: ['jpg', 'jpeg', 'png', 'webp'],
+            },
+            (error, result) => {
+                if (error) reject(error);
+                else resolve(result!.secure_url);
+            }
+        ).end(fileBuffer);
+    });
 }
+
+export const CreateUploadFolder = (folderName: string) => {
+    return {
+        uploadMiddleware: upload.single('imageUrl'),
+        folderName,
+    };
+    
+}
+
+export default upload;
