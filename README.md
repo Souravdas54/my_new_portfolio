@@ -2,6 +2,9 @@
 
 A full-stack portfolio application built with modern web technologies. This project showcases my skills, projects, resume, and professional journey as a MERN Stack Developer.
 
+🌐 Live Demo
+
+Portfolio Website (vercle)
 ---
 
 ## 📌 About The Project
