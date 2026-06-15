@@ -8,8 +8,9 @@
     "allowUnusedLabels": false,
     "strict": true,
     "target": "ES2022",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "CommonJS",
+    "moduleResolution": "Bundler",
+    // "ignoreDeprecations": "6.0",
     "lib": [
       "ESNext"
     ],
