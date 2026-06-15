@@ -14,7 +14,7 @@ app.use(express.json())
 app.use(express.urlencoded())
 
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: ['http://localhost:3000', 'https://my-new-portfolio-nu-bice.vercel.app'],
     methds: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
     headers: ['Content-type', 'Authorization'],
     credentials: true,

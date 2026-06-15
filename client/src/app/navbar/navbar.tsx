@@ -217,7 +217,7 @@ const Navbar: React.FC = () => {
                             </div>
 
                             {/* Mobile Notification */}
-                            <button className="flex items-center gap-3 sm:gap-4 w-full px-3 sm:px-4 py-3 sm:py-4 text-blue-100 hover:text-white hover:bg-white/10 rounded-xl transition-colors">
+                            {/* <button className="flex items-center gap-3 sm:gap-4 w-full px-3 sm:px-4 py-3 sm:py-4 text-blue-100 hover:text-white hover:bg-white/10 rounded-xl transition-colors">
                                 <div className="relative">
                                     <FiBell className="text-base sm:text-lg" />
                                     <span className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 text-white text-[10px] rounded-full flex items-center justify-center">
@@ -225,7 +225,7 @@ const Navbar: React.FC = () => {
                                     </span>
                                 </div>
                                 <span className="text-sm sm:text-base">Notifications</span>
-                            </button>
+                            </button> */}
 
                             {/* Mobile Action Buttons */}
                             {/* <div className="grid grid-cols-2 gap-2 px-3 sm:px-4">

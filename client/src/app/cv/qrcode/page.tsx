@@ -21,7 +21,7 @@ const qrOptions: QRCodeOption[] = [
     {
         id: 'portfolio',
         name: 'Portfolio',
-        value: 'https://souravdas.dev',
+        value: 'https://my-new-portfolio-nu-bice.vercel.app/cv',
         icon: FiGlobe,
         description: 'View my portfolio website',
         color: 'from-blue-500 to-blue-600'
